@@ -1,0 +1,18 @@
+.container{
+	width: 700px;
+	margin: 80px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+@media(max-width: 760px){
+	.container{
+		width:600px;
+	}
+}
+
+@media(max-width: 650px){
+	.container{
+		width:400px;
+	}
+}
